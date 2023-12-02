@@ -50,4 +50,56 @@
 }
 
 
+/* games content start */
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.mobilegames{
+    width: 80%;
+}
+.mobilegames h2{
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.mobilegames .gameContentBox{
+    height: 380px;
+    display: flex;
+    background-image: linear-gradient(97deg, #45172B 1.27%, #120C1F 75.23%);
+    border: none;
+    border-radius:17px;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+
+}
+.mobilegames .gameContentBox .gameContent{
+    width: 50%;
+}
+.mobilegames .gameContentBox .gameContent h1{
+    font-size: 36px;
+    line-height: 39px;
+}
+.mobilegames .gameContentBox .gameContent p{
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-top: 3.5%;
+    color: #ccc;
+}
+.mobilegames .gameContentBox img{
+    width: 56%;
+    position: absolute;
+    left: 62%;
+    top: -15%;
+    filter: brightness(86%);
+
+}
+/* games content end */
+
+
+
 
