@@ -50,6 +50,72 @@
 }
 
 
+.content{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+
+.data{
+    color: white;
+    line-height: 48px;
+}
+
+.data h1{
+    font-size: 3.5rem;
+    margin-bottom: 28px;
+}
+
+.data h2{
+    font-size: 3.3rem;
+    margin-bottom: 25px;
+}
+
+.data h5{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.data h6{
+    font-size: .9rem;
+    color: #aaa;
+    margin-bottom: 6px;
+}
+
+#input_area{
+    background-color: transparent;
+    border: 1px #aaa solid;
+    padding: 20px 0;
+    border-radius: 5px;
+    padding-left: 18px;
+    /* padding-right: 156px; */
+    padding-right: 60px;
+    font-size: 16px;
+    color: white;
+}
+
+.input_button{
+    display: flex;
+    align-items: center;
+}
+
+.input_button button{
+    padding: 17px 0;
+    border-radius: 5px;
+    padding-right: 76px;
+    background-color: rgb(210,47 ,39);
+    margin-left: 3px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#btn{
+    font-weight: 500;
+    padding-left: 50px;
+}
+
 /* games content start */
 section{
     width: 100%;
